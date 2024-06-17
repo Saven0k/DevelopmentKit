@@ -97,7 +97,7 @@ public class ClientGUI extends JFrame {
 
     public String readDialogLog(){
        String messages = "<html>";
-        try (BufferedReader reader = new BufferedReader(new FileReader("D:\\AllPrograming\\DevelopmentKit\\SEM2\\src\\server\\log.txt"))){
+        try (BufferedReader reader = new BufferedReader(new FileReader("D:\\AllPrograming\\DevelopmentKit\\SEM1\\log.txt"))){
             String line;
             while ((line = reader.readLine()) != null) {
                 messages = messages + line + "<br>";
@@ -112,7 +112,7 @@ public class ClientGUI extends JFrame {
     }
 
     public void writeDialogLog(String message, String authorMessage){
-        try (FileWriter writer = new FileWriter("D:\\AllPrograming\\DevelopmentKit\\SEM2\\src\\server\\log.txt", true)) {
+        try (FileWriter writer = new FileWriter("D:\\AllPrograming\\DevelopmentKit\\SEM1\\log.txt", true)) {
             writer.write(authorMessage + ": " + message + "<br>");
         } catch (IOException e) {
             e.getMessage();
