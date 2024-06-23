@@ -6,7 +6,7 @@ public class Task2 {
 
 
     public static <T, V> boolean compareArrays(T [] firstArray, V [] secondArray) {
-        if (firstArray.length == secondArray.length && firstArray.getClass() == secondArray.getClass()) {
+        if (firstArray.length == secondArray.length && firstArray.getClass().equals(secondArray.getClass())) {
             return true;
         }
         return false;
