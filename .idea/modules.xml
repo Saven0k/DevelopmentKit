@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/Les1/Les1.iml" filepath="$PROJECT_DIR$/Les1/Les1.iml" />
       <module fileurl="file://$PROJECT_DIR$/SEM1/SEM1.iml" filepath="$PROJECT_DIR$/SEM1/SEM1.iml" />
       <module fileurl="file://$PROJECT_DIR$/SEM2/SEM2.iml" filepath="$PROJECT_DIR$/SEM2/SEM2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEM3/SEM3.iml" filepath="$PROJECT_DIR$/SEM3/SEM3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEM4/SEM4.iml" filepath="$PROJECT_DIR$/SEM4/SEM4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEM5/SEM5.iml" filepath="$PROJECT_DIR$/SEM5/SEM5.iml" />
     </modules>
   </component>
 </project>
